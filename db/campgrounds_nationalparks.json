@@ -1,0 +1,317 @@
+{
+  "campground": [
+  	{
+  	  "park_id": 1,
+  	  "directions_overview": "To reach the Devils Garden Campground, enter the park off US 191, 5 miles north of Moab. Follow the main park road 18 miles, and follow signs for the campground.",
+      "name": "Devils Garden Campground",
+      "description": "Devils Garden Campground is temporarily closed due to a water leak. The campground will reopen March 1.\n\nCamp among slickrock outrcoppings at Devils Garden Campground, 18 miles from the park entrance. \n\nYou can reserve standard campsites up to 6 months in advance for stays March 1-October 31. All sites are usually reserved months in advance. Between November 1 and February 28, sites are first-come, first-served. Facilities include drinking water, picnic tables, grills, and both pit-style and flush toilets.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 2,
+  	  "directions_overview": "It is located in the upper most northwest section of the park known as the North Fork, approximately 40 miles from the west entrance and the Canadian border. Though the drive is very slow and bumpy on dirt roads, the drive is pleasant. Part of this drive takes you through the tiny community of Polebridge. Kintla Lake is about 14.3 miles from Polebridge.",
+      "name": "Kintla Lake",
+      "description": "Kintla Lake campground is Glacier National Park's most remote frontcountry and car camping campground. It is located in the upper most northwest section of the park known as the North Fork, approximately 40 miles from the west entrance. Access is via a rough dirt road. Trailers not advised. Due to it's remote location, the campground is very quiet and is very rarely filled, offering tent campers a sense of solitude. The campground sits on Kintla Lake." ,
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 2,
+  	  "directions_overview": "Bowman Lake campground is located in the North Fork area of Glacier National Park approximately 32.5 miles from the west entrance, and 30 miles from the Canadian border. The drive to Bowman Lake is a very slow, dusty, and bumpy ride on dirt roads, and passes through the tiny community of Polebridge. The campground is roughly 6.3 miles from Polebridge.",
+      "name": "Bowman Lake",
+      "description": "Bowman Lake campground is located in the North Fork area of Glacier National Park approximately 32.5 miles from the west entrance, and 30 miles from the Canadian border. The drive to Bowman Lake is a very slow, dusty, and bumpy ride on dirt roads. Trailers are not advised. The campground is located close to the shore of Bowman Lake and camp sites are within trees for shade and some privacy. Tent campers looking for peace and quiet will enjoy Bowman Lake for it's serenity and remote location.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 3,
+  	  "directions_overview": "GPS Info. (Latitude, Longitude): 36.04972, -112.12047 -- 36°2'59\"N, 112°7'14\"W\nFrom the south entrance, follow the road for about three miles and turn left on Center Road. Travel 1/4 mile and turn right onto Market Plaza Road. The campground is about one mile down Market Plaza Road on the right.",
+      "name": "Mather Campground",
+      "description": "Mather Campground is located in Grand Canyon Village on the South Rim of Grand Canyon National Park. There are 327 sites. Campsites include a campfire ring with cooking grate, picnic table, parking space and room for up to six people, three tents, and two vehicles. There are flush toilets and drinking water pumps throughout the campground. There is a free dump station but no hookups available  Almost all of the RV spaces are pull-through. Pine loop is a tent-only area where generators are not permitted.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 3,
+  	  "directions_overview": "",
+      "name": "Desert View Campground",
+      "description": "Located at the east entrance of Grand Canyon National Park, Desert View Campground offers a peaceful setting for an enjoyable camping experience.There are a total of 50 campsites. Most sites are sized to accommodate tents or smaller RV’s or Travel Trailers (30 ft. maximum length). Campsites are on a first come - first served - self-registration basis. No reservations are accepted. Desert View Campground closes during the winter months. It is open from mid-April through mid-October.",
+      "cell_phone_reception": false,
+      "showers": true
+    },
+    {
+      "park_id": 4,
+  	  "directions_overview": "Immediately west of the Fall River Entrance Station, follow signs south to Aspenglen Campground.",
+      "name": "Aspenglen Campground",
+      "description": "Near the Fall River Entrance. Douglas fir, lodgepole pine, ponderosa pine and the occasional Engelmann spruce forests the campground, offering equal amounts of sun and shade. Grasses, shrubs and seasonal wildflowers fill the open meadows. Aspenglen contains several drive-to family sites for tents and RVs. A few sites are more secluded, walk-to tent sites.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 4,
+  	  "directions_overview":  "On Bear Lake Road. At major intersection for Park & Ride, turn left, following signs for Glacier Basin Campground.",
+      "name": "Glacier Basin Campground",
+      "description": "A pleasant mix of Douglas fir, Lodgepole pine, Ponderosa pine, and the occasional Engelmann spruce  forests the campground, offering equal amounts of sun and shade. Grasses, shrubs and seasonal wildflowers fill the open meadows.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 5,
+  	  "directions_overview": "Located at Mammoth Hot Springs, five miles south of the North Entrance.",
+      "name": "Mammoth Campground",
+      "description": "Our only year-round campground, Mammoth is located five miles south of Gardiner, Montana and the park's North Entrance. Situated in a high sage brush steppe above the Gardner River, scattered juniper and Douglas fir trees provide shade during hot summer months. The campground is close to fishing, hiking, and the famous Mammoth Hot Springs Terraces. Great wildlife viewing opportunities abound with elk and bison occasionally passing through the campground.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 5,
+  	  "directions_overview": "This campground is reached by the Grand Loop Road and is near the intersection of the road that leads to the West Entrance. It is 14 miles east of the West Entrance and 16 miles north of Old Faithful.",
+      "name": "Madison Campground",
+      "description": "One of our most popular campgrounds due to its central location and long season, Madison sits about 14 miles east from the town of West Yellowstone and 16 miles north of Old Faithful. Nearby, the Gibbon and Firehole rivers join to form the Madison, all of which are considered world-class fly fishing destinations. In spring and early summer, nearby meadows teem with wildflowers and grazing bison. In September and early October, you can often hear the bugling of bull elk.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 6,
+  	  "directions_overview": "Yosemite Valley, near Half Dome Village (formerly Curry Village)",
+      "name": "Upper Pines",
+      "description": "Upper Pines Campground is in Yosemite Valley (4,000 ft / 1200m).",
+      "cell_phone_reception": true,
+      "showers": false
+    },
+    {
+      "park_id": 6,
+  	  "directions_overview": "Off the Big Oak Flat Road (Highway 120), about 45 minutes northwest of Yosemite Valley and adjacent to the Big Oak Flat Entrance Station, at 4,900 ft (1,500 m)",
+      "name": "Hodgdon Meadow",
+      "description": "Hodgdon Meadow Campground is located in breathtaking Yosemite National Park in Central California's rugged Sierra Nevada Mountain Range. The campground is 25 miles from Yosemite Valley at an elevation of 4,875 feet.\n\nWithin Yosemite, visitors can gaze upon waterfalls, sheer granite cliffs, deep valleys, grand meadows, ancient giant sequoias, vast wilderness areas and much more.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 7,
+  	  "directions_overview": "Watchman Campground is located ¼ mile from the South Entrance." ,
+      "name": "Watchman Campground",
+      "description": "Watchman Campground is located ¼ mile from the South Entrance. Tent and electric campsites are available year-round and group campsites are available by reservation from March through November. There are 176 regular sites, 2 wheelchair accessible sites and 6 group sites.\n\nWatchman Campground has two accessible sites and multiple other flat sites with easy access to six accessible restrooms. \n\n Watchman Campground is primarily occupied by reservations from March through the end of October.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 7,
+  	  "directions_overview": "",
+      "name": "South Campground",
+      "description": "South Campground is located ½ mile from the South Entrance. There are 127 campsites (including three wheelchair accessible) available March 1, 2018 by reservation. There are no hook-ups; a dump station is available for campers.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 8,
+  	  "directions_overview": "",
+      "name": "North Campground",
+      "description": "North Campground is located across the road to the east of the Bryce Canyon Visitor Center and is comprised of 99 sites in 4 loops; A, B, C, D. Cost is $30 per site/per night.\nNorth Campground is closest to the General Store. Loops A & B are for RV campers. Loops C & D are for tent campers.\nThere are no sewer, water or electrical hook-ups available. A dump station is available in summer months at the south end of the campground for a $5 use fee. Potable water is available near the dump station.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 8,
+  	  "directions_overview": "Sunset Campground is located west of Sunset Point, approximately 1.5 miles south of the Bryce Canyon Visitor Center, and is comprised of 100 sites in 3 loops; A, B, & C.",
+      "name": "Sunset Campground",
+      "description": "Sunset Campground is located west of Sunset Point, approximately 1.5 miles south of the Bryce Canyon Visitor Center, and is comprised of 100 sites in 3 loops; A, B, & C. Cost is $30 per RV site per night, and $20 per tent site per night. Loop A is for RV campers. Loops B & C are for tent campers. No sewer, water or electrical hook-ups available. A dump station is available in summer months near North Campground for a $5 use fee. Potable water is available near the dump station.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+      "park_id": 9,
+  	  "directions_overview": "Turn on UT 313, approximately 10 miles north of Moab or 22 miles south of I-70. Follow the road 22 miles to the entrance to Canyonlands National Park - Island in the Sky district. Continue on the park road approximately 7 miles. Make a right turn toward Upheaval Dome, and follow signs to the campground.",
+      "name": "Island in the Sky (Willow Flat) Campground",
+      "description": "Island in the Sky Campground (Willow Flat) has 12 sites, first-come, first-served. The campground is open year-round. The spectacular Green River Overlook is nearby. Nightly camping fee is $15 per site. Sites fill quickly spring through fall. There are toilets, picnic tables, and fire rings in the campground. There is no water at the campground. You can get drinking water outside the visitor center spring through fall.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 9,
+  	  "directions_overview": "To reach The Needles Campground, drive to the end of UT 211 to enter The Needles district. Continue on this road approximately 3 miles to reach the campground. \n\nThe Needles Group Site is located in at The Needles Campground. \nSplit Top Group Site is on Cave Springs Road. \nWooden Shoe Group Site is along the scenic drive near Wooden Shoe Arch Overlook.",
+      "name": "The Needles (Squaw Flat) Campground",
+      "description": "The Needles Campground has 26 individual sites, plus 3 group sites in different locations around The Needles district. Nightly camping fee for an individual site is $20. You can reserve some individual sites in spring and fall. Other times of the year, individual sites are first-come, first-served. Sites fill quickly in spring and fall. You can also reserve group sites for nights between mid-March and mid-November.  There are toilets, picnic tables, and fire rings in the campground.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 10,
+  	  "directions_overview": "Heading north from Jackson on US 26/89/191, turn left (west) at Moose Junction and continue eight miles north to South Jenny Lake Junction. Turn left (west) into the developed area.\nHeading south from Yellowstone on US 89/191/287, turn right (southwest) at Jackson Lake Junction and continue 12 miles south to South Jenny Lake Junction. Turn right (west) into the developed area.",
+      "name": "Jenny Lake Campground",
+      "description": "This small campground is a few hundred yards from the east shore of Jenny Lake. The campground straddles a glacial moraine covered with an open forest of lodgepole pine, subalpine fir and Douglas fir. Across the lake, Teewinot Mountain, Cascade Canyon and Mount St. John dominate the landscape. No trailers, campers, or generators are allowed. Vehicles cannot be over 8 feet high or 14 feet long. Maximum allowed per site is two tents, one vehicle, and six guests for up to 7 nights.",
+      "cell_phone_reception": false,
+      "showers": true
+    },
+    {
+      "park_id": 10,
+  	  "directions_overview": "Heading north on US 26/89/191 from Jackson, drive 7 miles. Turn right (east) at Gros Ventre Junction onto the Gros Ventre River Road. Continue northeast 4.5 miles to the Gros Ventre Campground sign. Turn right (south) and enter the campground.\nHeading south on US 26/89/191 from Moose Junction, drive 5.5 miles. Turn left (east) at Gros Ventre Junction onto the Gros Ventre River Road. Continue northeast 4.5 miles to the Gros Ventre Campground sign. Turn right (south) and enter the campground.",
+      "name": "Gros Ventre Campground",
+      "description": "The park's largest campground is in the southeast part of the park, closest to the town of Jackson. Sagebrush and grasses cover the campground as cottonwoods and blue spruce rise above. The Gros Ventre River is a short stroll away. Some sites offer views of the Grand Teton and Blacktail Butte. Wildlife including bison, moose and mule deer frequent the area. Maximum stay is 14 nights.",
+      "cell_phone_reception": false,
+      "showers": true
+    },
+    {
+      "park_id": 11,
+  	  "directions_overview": "From the North Entrance: Continue along Park Blvd and turn left onto Pinto Basin Road. Drive approximately 1.5 miles south along Pinto Basin Road. Turn left into Belle Campground at the Belle Campground sign. \nFrom the West Entrance: Drive along Park Blvd and turn right onto Pinto Basin Road. Turn left into Belle Campground at the Belle Campground sign. \nFrom the South : Drive north on Pinto Basin Road. Turn right at Belle Campground.",
+      "name": "Belle Campground",
+      "description": "This small (18 site) campground is at an elevation of 3,800 ft (1,158 m). First-come, first-served. Pit toilets. No water so bring plenty of your own. Belle is a great campground to see dark night skies.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 11,
+  	  "directions_overview": "Black Rock is just south of Yucca Valley. From Yucca Valley, turn south onto Palomar Ave. Palomar turns left onto Joshua Lane. Turn left onto San Marino Dr and continue onto Black Rock Canyon Road. Follow park signs.",
+      "name": "Black Rock Campground",
+      "description": "This large (100 site) campground is located in the northwest corner of the park. Each campsite has a picnic table and fire ring with rest rooms and water nearby. Shopping facilities are only five miles away in the town of Yucca Valley. Campsites vary in size and can accommodate both tents and RVs. A day-use picnic area and a dump station are also available. For horse owners, a separate area is provided for camping or for staging a ride.",
+      "cell_phone_reception": false,
+      "showers": false
+    },
+    {
+      "park_id": 12,
+  	  "directions_overview": "There is no address for Cougar Rock Campground. It is located 14 miles east of the town of Ashford, Washington, on State Route 706/Paradise Road, and about 2 miles uphill from Longmire. GPS coordinates are \"6.76722, -121.79444 or 46°46'2\"\"N, 121°47'40\"\"W\"",
+      "name": "Cougar Rock",
+      "description": "Cougar Rock Campground is located on the south side of the park, on the road between Longmire and Paradise. It is in a steep valley with the Nisqually River across the main road. Thick forest extends through the whole campground providing privacy for campsites. Access to the Wonderland trail is across the road with waterfalls a moderate hike away. Less than 15 minutes of driving can take you to the trails and facilities at Longmire or Paradise.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+      "park_id": 12,
+  	  "directions_overview": "There is no address for Ohanapecosh Campground. It is located 17 miles northeast of the town of Packwood, Washington, on State Route 123, 4 miles north of State Route 12, and about 1 mile north of the park boundary. GPS coordinates are \"46.73111, -121.57028 or 46°43'52\"\"N, 121°34'13\"\"W\"",
+      "name": "Ohanapecosh",
+      "description": "Ohanapecosh Campground is located in a steep mountain valley along the banks of the Ohanapecosh River at an elevation of 1,914 feet. Located in the southeast corner of the park along State Route 123. Under the tall trees, the campsites are relatively private. A visitor center and trails are found within the campground that lead to Silver Falls and the Grove of the Patriarchs. No public showers in the park.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 13,
+  	  "directions_overview": "Mathews Arm is the nearest campground for those entering the park from the north (Front Royal). \n\nNorth Entrance: From D.C travel west on Interstate 66 to Front Royal, Virginia (62 miles). Take exit onto Route 340 South and follow signs for Shenandoah National Park and Skyline Drive.  Upon entering Skyline Drive, make your way South to mile marker 22.1, where you will find Mathews Arm Campground.",
+      "name": "Mathews Arm Campground",
+      "description": "Mathews Arm is a family-oriented campground, offering plenty of open spaces in the nearly 166 available campsites. All sites include a place for a tent or RV, a fire ring and picnic area. The campground also offers modern amenities like flush toilets, drinking water and dump stations, creating a comfortable camping experience.\n\nElkwallow Wayside is located just two miles away, offering camping supplies, restaurants and more.",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 13,
+  	  "directions_overview": "",
+      "name": "Big Meadows Campground",
+      "description": "Secluded in the thick trees and rolling hills of Shenandoah National Park, the Big Meadows Campground is the ideal spot for an outdoors getaway. The scenery at Meadows Campground never disappoints, with a stunning array of colors in the fall and a blanket of bright wildflowers in the spring. This green and shady campground is a wilderness paradise for outdoor enthusiasts. Big Meadows is near many of the major facilities and popular hiking trails in the park. Three waterfalls are within walking distance",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 14,
+  	  "directions_overview": "",
+      "name": "Blackwoods Campground",
+      "description": "Blackwoods Campground is located on Mount Desert Island, 5 miles south of Bar Harbor on ME 3. It provides year-round camping, with primative conditions in the winter. There are tent and RV sites (without hookups).",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 14,
+  	  "directions_overview": "Located on Route 102A this campground is 4 miles (6 km) south of Southwest Harbor.",
+      "name": "Seawall Campground",
+      "description": "Seawall Campground is located on Mount Desert Island, 4 miles south of Southwest Harbor on ME 102A. It is open from late May through September. Reservations are recommended. There are walk-in and drive-up tent sites, as well as RV sites (without hookups).",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 15,
+  	  "directions_overview": "Dry Tortugas National Park is one of the most remote parks in the National Park System. Located approximately 70 miles west of Key West it is accessible only by a daily concession ferry, private boats, charter boats, or seaplane.\n\nThere is no commercial airplane or car access to the island. Also if traveling to the island you need to make preparations for all needs as there are no facilities other than a small gift shop in the fort.",
+      "name": "Garden Key Campground",
+      "description": "A 10-site, primitive campground is located on Garden Key, the same island as Fort Jefferson, and is a short walk from the public dock. Eight individual sites can each accommodate up to 3 2-person tents (total of 6 people), and are available on a first-come, first-served basis. Should a regular campsite not be available, an overflow area is provided. All campers, once they arrive will be guaranteed a place to camp.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 16,
+  	  "directions_overview": "The Flamingo Campground is located 38 miles south after going through the main entrance to Everglades National Park in Homestead.",
+      "name": "Flamingo Campground",
+      "description": "Flamingo is one of two drive-in campgrounds accessible from the Homestead entrance of the park. It offers showers that  are now solar-heated, two dump stations, picnic tables, grills, and an amphitheater for winter programs.\n\nFlamingo has several hiking trails and canoe trails, and opportunities for saltwater fishing are plentiful.\n\nCheck the Visitor Center for a daily schedule of Ranger guided programs.",
+      "cell_phone_reception": true,
+      "showers": false
+     },
+     {
+     "park_id": 16,
+  	  "directions_overview": "Long Pine Key Campground is located seven miles (11km) from the main entrance to the park near Homestead, just off the main road.",
+      "name": "Long Pine Key Campground",
+      "description": "Long Pine Key Campground is open Seasonally November - May (closed June to October.) As this campground does not take reservations availability is first come first serve, in the unlikely eve ",
+      "cell_phone_reception": true,
+      "showers": false
+     },
+     {
+     "park_id": 17,
+  	  "directions_overview": "From Maryville, TN: Take US-321 North (you'll actually be driving south!) from Maryville to Townsend, TN (about 22 miles). At the traffic light in Townsend, continue straight on TN-73 and follow signs to Cades Cove.\n\nFrom Pigeon Forge, TN take US-321 South (you'll be driving westerly) to Townsend, TN. Turn left (south) at Townsend onto TN-73. Follow signs to Cades Cove.",
+      "name": "Cades Cove Campground",
+      "description": "Cades Cove combines the feel of primitive camping with the modern convenience of flush toilets and drinking water. A camp store provides visitors with basic necessities as well as bike rentals. \n\nEvents like interpretive programs in the nearby amphitheater and bicycle-only days on the loop road provide visitors with a fun and unique experience.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 17,
+  	  "directions_overview": "From Cherokee, NC: Take Newfound Gap Road (US-441) North 6 miles. Turn right at campground sign.\n\nFrom Gatlinburg, TN: Take Newfound Gap Road (US-441) South 27 miles. Turn left at campground sign.",
+      "name": "Smokemont Campground",
+      "description": "Mountain ranges and pristine streams and rivers are the backdrop for your camping adventure in Smokemont. Whether blanketed in spring wildflowers or vivid fall colors, the scenery at Smokemont never disappoints. At 2,200 feet, Smokemont provides a moderate climate, characterized by mild winters and hot, humid summers. Smokemont Campground offers an unforgettable outdoor experience with campsites for tents as well as RVs.",
+      "cell_phone_reception": false,
+      "showers": false
+     },
+     {
+     "park_id": 18,
+  	  "directions_overview": "From Kilauea Visitor Center, turn left on Crater Rim Drive for 3.3 miles (5.3km) to the intersection of Crater Rim Drive and Chain of Craters Road. Turn left on Chain of Craters Road for 2.3 miles (3.7km). Turn right on Hilina Pali Road for 4 miles (6.4km) to the campground.",
+      "name": "Kulanaokuaiki",
+      "description": "Located off Hilina Pali Road at 3,200 feet (975 m), there are nine walk-in campsites with picnic tables. There is an accessible vault toilet; however, no water is available and campfires are not permitted. Use fueled camping stoves only. This campground is subject to closure when the area is dry and during times of high fire risk. No dogs or pets are allowed at this campground to protect endangered nene.",
+      "cell_phone_reception": true,
+      "showers": false
+     },
+     {
+     "park_id": 18,
+  	  "directions_overview": "The campground is located 31.5 miles south of Hilo on Highway 11.",
+      "name": "Nāmakanipaio",
+      "description": "Nāmakanipaio Campground, is located 31.5 miles south of Hilo on Highway-11 at 4,000' elevation. It is a large, open grassy area with tall eucalyptus and 'ōhi'a trees. This campground has restrooms, water, picnic tables and barbecue pits. Campfires are permitted in the barbeque pits only. Maximum stay is 7 days.",
+      "cell_phone_reception": true,
+      "showers": false
+     },
+     {
+     "park_id": 20,
+  	  "directions_overview": "Take Highway 198 to the town of Three Rivers. Five miles before the main Sequoia park entrance, turn onto South Fork Road and travel east for 12.3 miles. The paved road ends a short distance before you reach  South Fork Campground, and a dirt road continues to the campsites, ending at the Ladybug Trailhead. The dirt portion of the road is rough, and cars with low clearance are not recommended.",
+      "name": "South Fork Campground",
+      "description": "This small, primitive campground is situated in a remote area of the foothills on the South Fork of the Kaweah River at the transition from oaks to evergreens. Two trails leave from a trailhead nearby: the Garfield Grove and Ladybug trails. Other park features are over an hour's drive away.",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 20,
+  	  "directions_overview": "Cold Springs campground is located 23 miles (37 km) from Highway 198 on the Mineral King Road.",
+      "name": "Cold Springs Campground",
+      "description": "The campground is located near the Mineral King Visitor Center amid aspen trees and conifers. There are limited services at Silver City Resort, 2.5 miles (4 km) west of the campground. More extensive services can be found in the town of Three Rivers, 27 miles (44 km) west of Cold Springs Campground.",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 20,
+  	  "directions_overview": "Atwell Mill Campground is located 19 miles (31 km) from Highway 198 on Mineral King Road, which turns off in Three Rivers, and 6 miles (10 km) before the end of the road.",
+      "name": "Atwell Mill Campground",
+      "description": "The campground is situated along the East Fork of the Kaweah River in a once logged sequoia grove. There are limited services at Silver City Resort, 1.7 miles (3 km) east of the campground. More extensive services can be found in the town of Three Rivers, 23 miles (37 km) west of Atwell Mill Campground.",
+      "cell_phone_reception": false,
+      "showers": true
+     },
+     {
+     "park_id": 21,
+  	  "directions_overview": "",
+      "name": "Mammoth Cave Campground",
+      "description": "Located ¼ mile from the park Visitor Center, Mammoth Cave Campground is the park's developed camping area, situating campers most conveniently for excursions underground, around the Visitor Center, on the rivers, or farther afield. Rangers on duty in the campground kiosk are happy to provide information to make your stay a special adventure. The campground's 105 sites are open seasonally and are available by reservation.",
+      "cell_phone_reception": true,
+      "showers": false
+     },
+     {
+     "park_id": 21,
+  	  "directions_overview": "",
+      "name": "Maple Springs Group Campground",
+      "description": "Six mi. from the Visitor Center and 3 mi. north of the Green River Ferry.\nAll sites have multiple picnic tables, fire rings, chemical toilets, garbage dumpsters, and fresh water.\nTotal sites: 7 group sites:\n• 3 primitive group sites with a limit of 24 persons/site, $30/night\n• 4 designated horse camp sites with hitching posts and trailer parking, horses/site. \n    Horse sites #1 and #2 have water and electric hookups, $30/night\n    Horse sites #3 and #4 are primitive (no hookups), $22/night.",
+      "cell_phone_reception": false,
+      "showers": false
+     }
+
+     ]
+ }
