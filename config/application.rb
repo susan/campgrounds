@@ -31,5 +31,17 @@ module Campgrounds
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # config/application.rb
+Bundler.require(*Rails.groups)
+
+# Dotenv::Railtie.load
+
+# HOSTNAME = ENV['HOSTNAME']
+
+Dotenv.load Rails.root.join('file.env')
+Spring.watch Rails.root.join('file.env') if defined?(Spring)
+
+
   end
 end

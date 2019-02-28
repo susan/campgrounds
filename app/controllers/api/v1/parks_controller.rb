@@ -3,6 +3,7 @@ class Api::V1::ParksController < ApplicationController
   before_action :find_park, only: [:show]
 
 	def index
+		puts 'getting to index.......'
     @parks = Park.all
     render json: @parks, status: :ok
   end
