@@ -11,7 +11,9 @@ class Api::V1::ReviewsController < ApplicationController
    end
 
   def create
+
     @review = Review.create(review_params)
+
     if @review.save
    	  render json: @review, status: :created
     else
