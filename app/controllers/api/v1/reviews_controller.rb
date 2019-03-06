@@ -13,13 +13,16 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
    end
 
   def create
+    #if there is a current user, then associate them with the review
+    if current_useaaaa
+      @review = Review.new(review_params)
+      @review.user = current_useaaaa
 
-    @review = Review.create(review_params)
-
-    if @review.save
-   	  render json: @review, status: :created
-    else
-   	  render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
+      if @review.save
+     	  render json: @review, status: :created
+      else
+     	  render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
+      end
     end
   end
 
@@ -47,6 +50,7 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   private
 
+#take out user_id so would have to get it from front end
   def review_params
   	params.require(:review).permit(:content, :rating, :campground_id, :user_id)
   end

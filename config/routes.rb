@@ -9,6 +9,7 @@ Rails.application.routes.draw do
           resources :reviews
           get '/current_useaaaa', to: "auth#show"
           post '/login', to: 'auth#create'
+          get 'welcome', to: 'application#welcome'
       end
     end
 end
