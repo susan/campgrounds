@@ -28,6 +28,7 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def update
     @review = Review.find(params[:id])
+      @review.user = current_useaaaa
       @review.update(review_params)
         if @review.save
           render json: @review, status: :accepted
@@ -38,6 +39,7 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def destroy
     @review = Review.find(params[:id])
+    @review.user = current_useaaaa
     @reviews = Review.all
      @review.destroy
        if @review.destroy
