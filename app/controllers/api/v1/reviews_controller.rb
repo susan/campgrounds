@@ -1,6 +1,8 @@
 class Api::V1::ReviewsController < ApplicationController
 
-	def index
+before_action :current_useaaaa, only: [:create, :update, :destroy]
+
+  def index
     @reviews = Review.all
     render json: @reviews, status: :ok
   end
