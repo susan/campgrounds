@@ -28,26 +28,29 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def update
     @review = Review.find(params[:id])
-      @review.user = current_useaaaa
-      @review.update(review_params)
-        if @review.save
-          render json: @review, status: :accepted
-        else
-          render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
+      if @review.user_id === current_useaaaa
+        @review.update(review_params)
+          if @review.save
+            render json: @review, status: :accepted
+          else
+            render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
         end
+      end
   end
 
   def destroy
     @review = Review.find(params[:id])
-    @review.user = current_useaaaa
-    @reviews = Review.all
-     @review.destroy
-       if @review.destroy
-         render json: @review, status: :deleted
-       else
-         render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
-       end
 
+    @reviews = Review.all
+    byebug
+     if @review.user === current_useaaaa
+       @review.destroy
+         if @review.destroy
+           render json: @review, status: :deleted
+         else
+           render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
+         end
+      end
   end
 
   private
