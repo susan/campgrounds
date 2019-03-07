@@ -1,6 +1,6 @@
 class Api::V1::ReviewsController < ApplicationController
 
-before_action :current_useaaaa, only: [:create, :update, :destroy]
+before_action :curr_user, only: [:create, :update, :destroy]
 
   def index
     @reviews = Review.all
@@ -14,9 +14,9 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def create
     #if there is a current user, then associate them with the review
-    if current_useaaaa
+    if curr_user
       @review = Review.new(review_params)
-      @review.user = current_useaaaa
+      @review.user = curr_user
 
       if @review.save
      	  render json: @review, status: :created
@@ -28,7 +28,7 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def update
     @review = Review.find(params[:id])
-      if @review.user_id === current_useaaaa
+      if @review.user_id === curr_user
         @review.update(review_params)
           if @review.save
             render json: @review, status: :accepted
@@ -41,7 +41,7 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
   def destroy
     @review = Review.find(params[:id])
     @reviews = Review.all
-     if @review.user === current_useaaaa
+     if @review.user === curr_user
        (@review.destroy
         if @review.destroy
        render json: @review, status: :deleted

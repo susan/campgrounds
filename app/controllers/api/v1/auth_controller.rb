@@ -12,7 +12,7 @@ require "byebug"
     end
 
   def show
-    @user = current_useaaaa
+    @user = curr_user
     #renamed from current_user because active model
     if @user
         render json: { user: @user}, status: :accepted
