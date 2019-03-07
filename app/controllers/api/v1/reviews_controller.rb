@@ -40,17 +40,17 @@ before_action :current_useaaaa, only: [:create, :update, :destroy]
 
   def destroy
     @review = Review.find(params[:id])
-
     @reviews = Review.all
-    byebug
      if @review.user === current_useaaaa
-       @review.destroy
-         if @review.destroy
-           render json: @review, status: :deleted
+       (@review.destroy
+        if @review.destroy
+       render json: @review, status: :deleted
          else
            render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
-         end
-      end
+         end)
+     else
+     render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
+    end
   end
 
   private
