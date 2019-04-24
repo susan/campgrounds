@@ -44,7 +44,7 @@ before_action :curr_user, only: [:create, :update, :destroy]
      if @review.user === curr_user
        (@review.destroy
         if @review.destroy
-       render json: @review, status: :deleted
+           render json: @review, status: :deleted
          else
            render json: { errors: @review.errors.full_messages }, status: :unprocessible_entity
          end)

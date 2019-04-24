@@ -7,7 +7,7 @@ Rails.application.routes.draw do
           resources :campgrounds, only: [:index, :show]
           resources :users
           resources :reviews
-          get '/current_useaaaa', to: "auth#show"
+          get '/curr_user', to: "auth#show"
           post '/login', to: 'auth#create'
           get 'welcome', to: 'application#welcome'
       end
